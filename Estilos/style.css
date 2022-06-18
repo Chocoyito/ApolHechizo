@@ -1,0 +1,49 @@
+:root{
+    --primario: rgb(27, 26, 26);
+    --secundario: rgb(255, 255, 255);
+    --fuente: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body{
+    background-color: var(--secundario);
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+
+p{
+    font-size: 1.6rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a{
+    text-decoration: none; /* Elimina la linea que tienen debajo los enlaces ____*/
+}
+
+img{
+    max-width: 100%;
+}
+
+h1, h2, h3{
+    text-align: center;
+    color: var(--secundario);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1{font-size: 4rem;}
+h2{font-size: 3rem;}
+h3{font-size: 2rem;}
+

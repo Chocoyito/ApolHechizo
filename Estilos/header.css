@@ -1,0 +1,47 @@
+.header{
+    background-color: var(--primario);
+    padding-bottom: 2rem;
+}
+
+.apple{
+    /* position: absolute; */
+    width: 5rem;
+    margin-top: 1.5rem;
+}
+
+.boton-mode{
+    position: absolute;
+    margin-left: 75rem;
+    z-index: 999;
+    height: 3rem;
+    width: 3rem;
+}
+.contenedor-boton{
+    margin-bottom: 1.5rem;
+}
+
+
+.nav-apple{
+    margin-bottom: 1rem;
+    margin-top: 2.5rem;
+    gap: 2rem;
+}
+
+.boton{
+    color: white;
+    font-family: var(--fuente);
+    font-size: 2rem;
+    margin-right: 5rem;
+}
+.absoluto{
+    position: absolute;
+    margin-left: 63rem;
+}
+.derecha{
+    color: white;
+    font-family: var(--fuente);
+    font-size: 2rem;
+}
+.separacion-boton{
+    margin-left: -45rem;
+}
